@@ -1,0 +1,87 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
+    font-size: 16px;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header   
+   h1 {
+    font-size: 36px;
+    font-weight: bold;   
+  
+    margin: 0;
+  }
+  
+  header img {
+    max-width: 150px;
+    height: auto;
+  }
+  
+  /* Section Styles */
+  section {
+    padding: 40px;
+  }
+  
+  section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  section p {
+    line-height: 1.6;
+  }
+  
+  /* Image Styles */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* BMW-Specific Styles */
+  .bmw-blue {
+    background-color: #000099;
+    color: #fff;
+  }
+  
+  .bmw-gray {
+    background-color: #f0f0f0;
+  }
+  
+  .bmw-font {
+    font-family: "BMW Neue", sans-serif; /* Replace with the actual BMW font */
+    font-weight: bold;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    header {
+      flex-direction: column;
+      text-align: center;
+    }
+    section {
+      padding: 20px;
+    }
+  }
